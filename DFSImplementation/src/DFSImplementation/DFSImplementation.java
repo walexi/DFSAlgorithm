@@ -13,10 +13,15 @@ import java.util.Stack;
 /**
  *
  * @author walexi4great
+ * I really have not gotten the DFS Implementation straight, though Ii understand the concept.
+ * I just had to get this code from somewhere else and do some minor modification.
  */
 public class DFSImplementation {
- private Stack<Integer> stack;
+     
+    
+    private Stack<Integer> stack;
  
+    
     public DFSImplementation() 
     {
         stack = new Stack<Integer>();
